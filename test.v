@@ -27,7 +27,7 @@ module test;
     pb <= 0;
 #150
 		rst_n <= 1;
-#1000
+#10000000
 		$finish;
 	end
 

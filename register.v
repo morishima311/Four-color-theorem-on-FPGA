@@ -43,4 +43,36 @@ module register
   assign data0 = regis[src0];
   assign data1 = regis[src1];
 
+  wire [7:0] reg0;
+  wire [7:0] reg1;
+  wire [7:0] reg2;
+  wire [7:0] reg3;
+  wire [7:0] reg4;
+  wire [7:0] reg5;
+  wire [7:0] reg6;
+  wire [7:0] reg7;
+  wire [7:0] reg8;
+  wire [7:0] reg9;
+  wire [7:0] reg10;
+  wire [7:0] reg11;
+  wire [7:0] reg12;
+  wire [7:0] reg13;
+  wire [7:0] reg14;
+  wire [7:0] reg15;
+
+  assign reg1 = regis[1];
+  assign reg2 = regis[2];
+  assign reg3 = regis[3];
+  assign reg4 = regis[4];
+  assign reg5 = regis[5];
+  assign reg6 = regis[6];
+  assign reg7 = regis[7];
+  assign reg8 = regis[8];
+  assign reg9 = regis[9];
+  assign reg10 = regis[10];
+  assign reg11 = regis[11];
+  assign reg12 = regis[12];
+  assign reg13 = regis[13];
+  assign reg14 = regis[14];
+  assign reg15 = regis[15];
 endmodule
